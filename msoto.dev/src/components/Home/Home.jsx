@@ -13,7 +13,7 @@ export default function Home() {
                 <Toolbar />
             </header>
             <main className='flex flex-col'>
-                <div className='flex flex-col gap-[45px] px-[45px]'>
+                <div className='flex flex-col gap-[45px] px-[15px] sm:px-[45px]'>
                     <Presentation />
                     <IconTitle icon='https://img.icons8.com/?size=35&id=rt7E3Z37UZuZ&format=png&color=2e0427'
                             title='Projects' />

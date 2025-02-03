@@ -4,7 +4,7 @@ export function IconList(
     { icons }
 ) {
     return (
-        <ul className="flex gap-[10px]">
+        <ul className="flex justify-center sm:justify-start gap-[10px]">
             {icons.map(icon => (
                 <li key={icon.url}>
                     <IconListItem url={icon.url}

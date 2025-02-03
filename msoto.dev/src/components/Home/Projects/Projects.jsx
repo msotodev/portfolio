@@ -5,7 +5,7 @@ export default function Projects(){
     const projects = GetProjects();
 
     return (
-        <section className="flex flex-col gap-[15px]">
+        <section className="flex flex-col gap-[10px]">
             {projects.map(project => (
                 <Project key={project.title}
                          title={project.title}
