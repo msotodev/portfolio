@@ -9,7 +9,7 @@ import SocialMedia from '../Common/SocialMedia/SocialMedia'
 export default function Home() {
     return (
         <div className='max-w-[900px] mx-auto py-[45px] flex flex-col bg-[var(--light-gray)] rounded-t-[10px]'>
-            <header className='p-[45px]'>
+            <header className='px-[15px] pb-[10px] sm:pb-[45px] sm:px-[45px]'>
                 <Toolbar />
             </header>
             <main className='flex flex-col'>

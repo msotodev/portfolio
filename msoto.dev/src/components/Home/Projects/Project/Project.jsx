@@ -15,8 +15,8 @@ function Project(
                 <IconList icons={tools} />
             </div>
             <div>
-                <div className="flex justify-center items-center bg-[#e2e2e223]">
-                    <img src={image} alt="" />
+                <div className="flex justify-center items-center p-[25px] bg-[#e2e2e223]">
+                    <img className="w-40" src={image} alt="" />
                 </div>
             </div>
         </article>

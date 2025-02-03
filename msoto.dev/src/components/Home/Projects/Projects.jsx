@@ -11,7 +11,7 @@ export default function Projects(){
                          title={project.title}
                          subtitle={project.subtitle}
                          description={project.description}
-                         image="/images/Projects/parq.png"
+                         image={project.image}
                          tools={project.tools} />
             ))}
         </section>
@@ -26,6 +26,7 @@ function GetProjects(){
             title: "ParQ",
             subtitle: "Virtual Parking",
             description: "Is a virtual solution parking that provide a zone or slot to choose in the spaces of your city...",
+            image: "/images/Projects/parq.png",
             tools: [
                 {
                     title: "C#",
@@ -38,27 +39,79 @@ function GetProjects(){
             ]
         },
         {
-            title: "ParQ 1",
-            subtitle: "Virtual Parking",
-            description: "Is a virtual solution parking that provide a zone or slot to choose in the spaces of your city...",
+            title: "GIS",
+            subtitle: "Geographic Information System",
+            description: "Is a web app thinking to draw layers with Geojson objects and make a relation with specific data about this place.",
             tools: [
                 {
-                    title: "Linked In",
-                    url: "https://www.linkedin.com/in/mario-soto-moreno-547186189",
-                    icon_url: GetIconUri("8808", color)
-                }
+                    title: "C#",
+                    icon_url: GetIconUri("55205", color)
+                },
+                {
+                    title: "ASP.NET MVC",
+                    icon_url: GetIconUri("3756", color)
+                },
             ]
         },
         {
-            title: "ParQ 2",
-            subtitle: "Virtual Parking",
+            title: "Licences",
+            subtitle: "Licensing of businesses",
             description: "Is a virtual solution parking that provide a zone or slot to choose in the spaces of your city...",
             tools: [
                 {
-                    title: "Linked In",
-                    url: "https://www.linkedin.com/in/mario-soto-moreno-547186189",
-                    icon_url: GetIconUri("8808", color)
-                }
+                    title: "C#",
+                    icon_url: GetIconUri("55205", color)
+                },
+                {
+                    title: "ASP.NET MVC",
+                    icon_url: GetIconUri("3756", color)
+                },
+            ]
+        },
+        {
+            title: "Fotomultas",
+            subtitle: "Control and Management of Photo Infringements",
+            description: "Is a virtual solution parking that provide a zone or slot to choose in the spaces of your city...",
+            tools: [
+                {
+                    title: "C#",
+                    icon_url: GetIconUri("55205", color)
+                },
+                {
+                    title: "ASP.NET MVC",
+                    icon_url: GetIconUri("3756", color)
+                },
+            ]
+        },
+        {
+            title: "Centro de Mando",
+            subtitle: "HandHeld Finance and Reporting",
+            description: "Is a virtual solution parking that provide a zone or slot to choose in the spaces of your city...",
+            tools: [
+                {
+                    title: "C#",
+                    icon_url: GetIconUri("55205", color)
+                },
+                {
+                    title: "ASP.NET MVC",
+                    icon_url: GetIconUri("3756", color)
+                },
+            ]
+        },
+        {
+            title: "HandHeld",
+            subtitle: "Traffic Violations",
+            description: "Is a virtual solution parking that provide a zone or slot to choose in the spaces of your city...",
+            image: "/images/Projects/handheld.png",
+            tools: [
+                {
+                    title: "C#",
+                    icon_url: GetIconUri("55205", color)
+                },
+                {
+                    title: "ASP.NET MVC",
+                    icon_url: GetIconUri("3756", color)
+                },
             ]
         }
     ];
