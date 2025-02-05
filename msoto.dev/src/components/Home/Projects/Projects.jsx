@@ -66,6 +66,10 @@ function GetProjects(){
                     title: "ASP.NET MVC",
                     icon_url: GetIconUri("3756", color)
                 },
+                {
+                    title: "Azure",
+                    icon_url: GetIconUri("QaejVa62EGjF", color)
+                }
             ]
         },
         {
@@ -81,6 +85,10 @@ function GetProjects(){
                     title: "ASP.NET MVC",
                     icon_url: GetIconUri("3756", color)
                 },
+                {
+                    title: "SQL Server",
+                    icon_url: GetIconUri("10429", color)
+                }
             ]
         },
         {
@@ -96,6 +104,10 @@ function GetProjects(){
                     title: "ASP.NET MVC",
                     icon_url: GetIconUri("3756", color)
                 },
+                {
+                    title: "SQL Server",
+                    icon_url: GetIconUri("10429", color)
+                }
             ]
         },
         {
@@ -112,6 +124,30 @@ function GetProjects(){
                     title: "ASP.NET MVC",
                     icon_url: GetIconUri("3756", color)
                 },
+                {
+                    title: "SQL Server",
+                    icon_url: GetIconUri("10429", color)
+                }
+            ]
+        },
+        {
+            title: "Padrón Vehicular",
+            subtitle: "Management of vehicle procedures",
+            description: "Is a virtual solution parking that provide a zone or slot to choose in the spaces of your city...",
+            image: "/images/Projects/controlvehicular.png",
+            tools: [
+                {
+                    title: "C#",
+                    icon_url: GetIconUri("55205", color)
+                },
+                {
+                    title: "Blazor Server",
+                    icon_url: GetIconUri("vuBZHdDl29U9", color)
+                },
+                {
+                    title: "SQL Server",
+                    icon_url: GetIconUri("10429", color)
+                }
             ]
         }
     ];
