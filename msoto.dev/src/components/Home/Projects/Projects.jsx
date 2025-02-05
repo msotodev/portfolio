@@ -36,6 +36,10 @@ function GetProjects(){
                     title: "ASP.NET MVC",
                     icon_url: GetIconUri("3756", color)
                 },
+                {
+                    title: "Azure",
+                    icon_url: GetIconUri("QaejVa62EGjF", color)
+                }
             ]
         },
         {

@@ -5,7 +5,7 @@ function Project(
     {title, subtitle, description, image, tools}
 ){
     return (
-        <article className="flex flex-col gap-[20px] p-[25px] rounded-[10px] bg-[var(--primary-color)] sm:flex-row">
+        <article className="flex flex-col gap-[20px] sm:items-center p-[25px] rounded-[10px] bg-[var(--primary-color)] sm:flex-row">
             <div className="flex flex-col gap-[15px] items-center text-center">
                 <h3 className="text-2xl font-bold">
                     {title} - <small className="font-light">{subtitle}</small>
@@ -15,8 +15,8 @@ function Project(
                 <IconList icons={tools} />
             </div>
             <div>
-                <div className="flex justify-center items-center p-[25px] rounded-[10px] bg-[#e2e2e223]">
-                    <img title={title} className="h-40" src={image} alt={title} />
+                <div className="h-[200px] w-[100%] sm:w-[200px] flex justify-center text-center items-center p-[25px] rounded-[10px] bg-[#e2e2e223]">
+                    <img title={title} className="w-40 h-40 object-contain" src={image} alt={title} />
                 </div>
             </div>
         </article>
