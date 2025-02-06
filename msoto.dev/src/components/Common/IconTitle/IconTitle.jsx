@@ -4,11 +4,12 @@ function IconTitle(
     {icon, title, isCenter = true, isBold = true, url = ""}
 ){
     let classNameDiv = "flex gap-[10px]";
+    const id = title.replace(" ", "");
 
     if (isCenter) classNameDiv += " justify-center items-center";
 
     return (
-        <div className={classNameDiv}>
+        <div id={id} className={classNameDiv}>
             <img src={icon} alt={title} />
             <TitleLink title={title} url={url} isBold={isBold} />
         </div>

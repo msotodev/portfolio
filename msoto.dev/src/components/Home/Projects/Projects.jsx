@@ -33,6 +33,10 @@ function GetProjects(){
                     icon_url: GetIconUri("55205", color)
                 },
                 {
+                    title: "Xamarin Froms",
+                    icon_url: GetIconUri("35116", color)
+                },
+                {
                     title: "ASP.NET MVC",
                     icon_url: GetIconUri("3756", color)
                 },
@@ -46,25 +50,39 @@ function GetProjects(){
             title: "GIS",
             subtitle: "Geographic Information System",
             description: "Is a web app thinking to draw layers with Geojson objects and make a relation with specific data about this place.",
+            image: "/images/Projects/gis.png",
             tools: [
                 {
                     title: "C#",
                     icon_url: GetIconUri("55205", color)
                 },
                 {
+                    title: "Type Script",
+                    icon_url: GetIconUri("cHBUT9SmrD2V", color)
+                },
+                {
                     title: "ASP.NET MVC",
                     icon_url: GetIconUri("3756", color)
                 },
+                {
+                    title: "React",
+                    icon_url: GetIconUri("35989", color)
+                }
             ]
         },
         {
             title: "Licences",
             subtitle: "Licensing of businesses",
             description: "Is a virtual solution parking that provide a zone or slot to choose in the spaces of your city...",
+            image: "/images/Projects/licences.png",
             tools: [
                 {
                     title: "C#",
                     icon_url: GetIconUri("55205", color)
+                },
+                {
+                    title: "Xamarin Froms",
+                    icon_url: GetIconUri("35116", color)
                 },
                 {
                     title: "ASP.NET MVC",
@@ -80,6 +98,7 @@ function GetProjects(){
             title: "Fotomultas",
             subtitle: "Control and Management of Photo Infringements",
             description: "Is a virtual solution parking that provide a zone or slot to choose in the spaces of your city...",
+            image: "/images/Projects/fotomultas.jpg",
             tools: [
                 {
                     title: "C#",
@@ -99,6 +118,7 @@ function GetProjects(){
             title: "Centro de Mando",
             subtitle: "HandHeld Finance and Reporting",
             description: "Is a virtual solution parking that provide a zone or slot to choose in the spaces of your city...",
+            image: "/images/Projects/centromando.png",
             tools: [
                 {
                     title: "C#",
@@ -125,17 +145,25 @@ function GetProjects(){
                     icon_url: GetIconUri("55205", color)
                 },
                 {
+                    title: "Xamarin Froms",
+                    icon_url: GetIconUri("35116", color)
+                },
+                {
                     title: "ASP.NET MVC",
                     icon_url: GetIconUri("3756", color)
                 },
                 {
                     title: "SQL Server",
                     icon_url: GetIconUri("10429", color)
+                },
+                {
+                    title: "Express Js",
+                    icon_url: GetIconUri("kg46nzoJrmTR", color)
                 }
             ]
         },
         {
-            title: "Padrón Vehicular",
+            title: "Control Vehicular",
             subtitle: "Management of vehicle procedures",
             description: "Is a virtual solution parking that provide a zone or slot to choose in the spaces of your city...",
             image: "/images/Projects/controlvehicular.png",

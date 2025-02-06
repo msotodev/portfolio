@@ -5,7 +5,7 @@ function Project(
     {title, subtitle, description, image, tools}
 ){
     return (
-        <article className="flex flex-col gap-[20px] sm:items-center p-[25px] rounded-[10px] bg-[var(--primary-color)] sm:flex-row">
+        <article className="flex flex-col gap-[20px] transition duration-300 cursor-pointer hover:bg-[var(--primary-dark-color)] sm:items-center p-[25px] rounded-[10px] bg-[var(--primary-color)] sm:flex-row">
             <div className="flex flex-col gap-[15px] items-center text-center">
                 <h3 className="text-2xl font-bold">
                     {title} - <small className="font-light">{subtitle}</small>

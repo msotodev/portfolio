@@ -5,7 +5,7 @@ export default function Presentation() {
         <section className="flex flex-col gap-[25px] items-center">
             <article className="flex flex-col gap-[35px] sm:flex-row">
                 <div className="flex justify-center align-middle">
-                    <img className="w-50 rounded-full" src="/images/Presentation/programmer.png" alt="Avatar" />
+                    <img className="w-50 rounded-full cursor-pointer transition duration-300 ease-in-out hover:scale-[1.1]" src="/images/Presentation/programmer.png" alt="Avatar" />
                 </div>
                 <div className="flex items-center">
                     <div className="flex flex-col gap-[10px] text-center sm:text-left">
