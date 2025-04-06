@@ -12,22 +12,22 @@ function GetSocialMediaIcons(){
         {
             title: "Linked In",
             url: "https://www.linkedin.com/in/mario-soto-moreno-547186189",
-            icon_url: "/src/images/technologies/dark/linkedin.png"
+            icon_url: "/images/technologies/dark/linkedin.png"
         },
         {
             title: "Github",
             url: "https://github.com/MatProgrammerSM",
-            icon_url: "/src/images/technologies/dark/github.png"
+            icon_url: "/images/technologies/dark/github.png"
         },
         {
             title: "Discord",
             url: "https://discord.gg/",
-            icon_url: "/src/images/technologies/dark/discord.png"
+            icon_url: "/images/technologies/dark/discord.png"
         },
         {
             title: "Gmail",
             url: "mailto:mariosotomor.dev@gmail.com",
-            icon_url: "/src/images/technologies/dark/mail.png"
+            icon_url: "/images/technologies/dark/mail.png"
         }
     ];
 }

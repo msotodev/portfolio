@@ -80,19 +80,19 @@ function GetProjects(){
             tools: [
                 {
                     title: "C#",
-                    icon_url: GetIconUri("55205", color)
+                    icon_url: '/images/technologies/light/csharp.png'
                 },
                 {
                     title: "Xamarin Froms",
-                    icon_url: GetIconUri("35116", color)
+                    icon_url: '/images/technologies/light/project.png'
                 },
                 {
                     title: "ASP.NET MVC",
-                    icon_url: GetIconUri("3756", color)
+                    icon_url: "/images/technologies/light/aspnet.png"
                 },
                 {
                     title: "Azure",
-                    icon_url: GetIconUri("QaejVa62EGjF", color)
+                    icon_url: "/images/technologies/light/azure.png"
                 }
             ]
         },
@@ -104,15 +104,15 @@ function GetProjects(){
             tools: [
                 {
                     title: "C#",
-                    icon_url: GetIconUri("55205", color)
+                    icon_url: "/images/technologies/light/csharp.png"
                 },
                 {
                     title: "ASP.NET MVC",
-                    icon_url: GetIconUri("3756", color)
+                    icon_url: "/images/technologies/light/aspnet.png"
                 },
                 {
                     title: "SQL Server",
-                    icon_url: GetIconUri("10429", color)
+                    icon_url: "/images/technologies/light/sqlserver.png"
                 }
             ]
         },
@@ -124,15 +124,15 @@ function GetProjects(){
             tools: [
                 {
                     title: "C#",
-                    icon_url: GetIconUri("55205", color)
+                    icon_url: "/images/technologies/light/csharp.png"
                 },
                 {
                     title: "ASP.NET MVC",
-                    icon_url: GetIconUri("3756", color)
+                    icon_url: "/images/technologies/light/aspnet.png"
                 },
                 {
                     title: "SQL Server",
-                    icon_url: GetIconUri("10429", color)
+                    icon_url: "/images/technologies/light/sqlserver.png"
                 }
             ]
         },
