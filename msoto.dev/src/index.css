@@ -7,6 +7,7 @@
   background-color: var(--primary-color);
 
   --primary-color: #2e0427;
+  --primary-text-color: #2e0427;
   --primary-dark-color: #1f011a;
   --transparent-color: #00000000;
   --light-gray: #EBEBEB;
@@ -15,4 +16,10 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.dark {
+  --primary-text-color: #FFF; /* color para modo oscuro */
+  --light-gray: #1f011aa9;
+  color: #FFF;
 }

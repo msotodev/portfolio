@@ -12,14 +12,15 @@ export default function Presentation() {
                 </div>
                 <div className="flex items-center">
                     <div className="flex flex-col gap-[10px] text-center sm:text-left">
-                        <h1 className="text-3xl font-bold text-[var(--primary-color)]">Mario Soto Moreno</h1>
-                        <h2 className="text-[var(--primary-color)] pl-[0px]">{t("career")}</h2>
+                        <h1 className="text-3xl font-bold text-[var(--primary-text-color)]">Mario Soto Moreno</h1>
+                        <h2 className="text-[var(--primary-text-color)] pl-[0px]">{t("career")}</h2>
+                        
                         <SocialMedia />
                     </div>
                 </div>
             </article>
             <article>
-                <p className="text-center text-[var(--primary-color)]">
+                <p className="text-center text-[var(--primary-text-color)]">
                     {t("presentation")}
                 </p>
             </article>

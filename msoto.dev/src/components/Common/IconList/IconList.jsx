@@ -7,9 +7,10 @@ export function IconList(
         <ul className="flex justify-center sm:justify-start gap-[10px]">
             {icons.map(icon => (
                 <li key={icon.url}>
-                    <IconListItem url={icon.url}
-                        icon_url={icon.icon_url}
-                        title={icon.title} />
+                    <IconListItem key={icon.url} 
+                                  url={icon.url}
+                                  icon_url={icon.icon_url}
+                                  title={icon.title} />
                 </li>
             ))}
         </ul>
