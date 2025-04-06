@@ -144,23 +144,23 @@ function GetProjects(){
             tools: [
                 {
                     title: "C#",
-                    icon_url: GetIconUri("55205", color)
+                    icon_url: "/images/technologies/light/csharp.png"
                 },
                 {
                     title: "Xamarin Froms",
-                    icon_url: GetIconUri("35116", color)
+                    icon_url: "/images/technologies/light/xamarinforms.png"
                 },
                 {
                     title: "ASP.NET MVC",
-                    icon_url: GetIconUri("3756", color)
+                    icon_url: "/images/technologies/light/aspnet.png"
                 },
                 {
                     title: "SQL Server",
-                    icon_url: GetIconUri("10429", color)
+                    icon_url: "/images/technologies/light/sqlserver.png"
                 },
                 {
                     title: "Express Js",
-                    icon_url: GetIconUri("kg46nzoJrmTR", color)
+                    icon_url: "/images/technologies/light/expressjs.png"
                 }
             ]
         },
@@ -172,15 +172,15 @@ function GetProjects(){
             tools: [
                 {
                     title: "C#",
-                    icon_url: GetIconUri("55205", color)
+                    icon_url: "/images/technologies/light/csharp.png"
                 },
                 {
                     title: "Blazor Server",
-                    icon_url: GetIconUri("vuBZHdDl29U9", color)
+                    icon_url: "/images/technologies/light/blazor.png"
                 },
                 {
                     title: "SQL Server",
-                    icon_url: GetIconUri("10429", color)
+                    icon_url: "/images/technologies/light/sqlserver.png"
                 }
             ]
         }

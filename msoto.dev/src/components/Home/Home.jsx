@@ -20,10 +20,10 @@ export default function Home() {
                     {/* <Menu /> */}
                     <div className='flex flex-col gap-[45px] px-[15px] sm:px-[45px]'>
                         <Presentation />
-                        <IconTitle icon='/src/images/technologies/dark/project.png'
+                        <IconTitle icon='/images/technologies/dark/project.png'
                             title={t("title-projects")} />
                         <Projects />
-                        <IconTitle icon='/src/images/technologies/dark/skill.png'
+                        <IconTitle icon='/images/technologies/dark/skill.png'
                             title={t("title-skills")} />
                         <TechnicalSkills />
                     </div>
