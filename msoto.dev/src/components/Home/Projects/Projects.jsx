@@ -1,5 +1,6 @@
 import Project from "./Project/Project";
 import { GetIconUri } from "../../../helpers/IconHelper"
+import { useTranslation } from 'react-i18next';
 
 export default function Projects(){
     const projects = GetProjects();
@@ -20,12 +21,13 @@ export default function Projects(){
 
 function GetProjects(){
     const color = "FFFFFF";
+    const { t } = useTranslation();
 
     return [
         {
             title: "ParQ",
-            subtitle: "Virtual Parking",
-            description: "Is a virtual solution parking that provide a zone or slot to choose in the spaces of your city...",
+            subtitle: t("project-parq-subtitle"),
+            description: t("project-parq-description"),
             image: "/images/Projects/parq.png",
             tools: [
                 {
@@ -48,8 +50,8 @@ function GetProjects(){
         },
         {
             title: "GIS",
-            subtitle: "Geographic Information System",
-            description: "Is a web app thinking to draw layers with Geojson objects and make a relation with specific data about this place.",
+            subtitle: t("project-gis-subtitle"),
+            description: t("project-gis-description"),
             image: "/images/Projects/gis.png",
             tools: [
                 {
@@ -71,9 +73,9 @@ function GetProjects(){
             ]
         },
         {
-            title: "Licences",
-            subtitle: "Licensing of businesses",
-            description: "Is a virtual solution parking that provide a zone or slot to choose in the spaces of your city...",
+            title: "Licencias",
+            subtitle: t("project-licences-subtitle"),
+            description: t("project-licences-description"),
             image: "/images/Projects/licences.png",
             tools: [
                 {
@@ -96,8 +98,8 @@ function GetProjects(){
         },
         {
             title: "Fotomultas",
-            subtitle: "Control and Management of Photo Infringements",
-            description: "Is a virtual solution parking that provide a zone or slot to choose in the spaces of your city...",
+            subtitle: t("project-photofines-subtitle"),
+            description: t("project-photofines-description"),
             image: "/images/Projects/fotomultas.jpg",
             tools: [
                 {
@@ -116,8 +118,8 @@ function GetProjects(){
         },
         {
             title: "Centro de Mando",
-            subtitle: "HandHeld Finance and Reporting",
-            description: "Is a virtual solution parking that provide a zone or slot to choose in the spaces of your city...",
+            subtitle: t("project-commandcenter-subtitle"),
+            description: t("project-commandcenter-description"),
             image: "/images/Projects/centromando.png",
             tools: [
                 {
@@ -136,8 +138,8 @@ function GetProjects(){
         },
         {
             title: "HandHeld",
-            subtitle: "Traffic Violations",
-            description: "Is a virtual solution parking that provide a zone or slot to choose in the spaces of your city...",
+            subtitle: t("project-handheld-subtitle"),
+            description: t("project-handheld-description"),
             image: "/images/Projects/handheld.png",
             tools: [
                 {
@@ -164,8 +166,8 @@ function GetProjects(){
         },
         {
             title: "Control Vehicular",
-            subtitle: "Management of vehicle procedures",
-            description: "Is a virtual solution parking that provide a zone or slot to choose in the spaces of your city...",
+            subtitle: t("project-vehicularcontrol-subtitle"),
+            description: t("project-vehicularcontrol-description"),
             image: "/images/Projects/controlvehicular.png",
             tools: [
                 {

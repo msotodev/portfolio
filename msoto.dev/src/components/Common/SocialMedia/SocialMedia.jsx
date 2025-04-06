@@ -24,7 +24,7 @@ function GetSocialMediaIcons(color){
         },
         {
             title: "Discord",
-            url: "",
+            url: "https://discord.gg/",
             icon_url: GetIconUri("30888", color)
         },
         {

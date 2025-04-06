@@ -39,7 +39,7 @@ IconTitle.propTypes = {
 
 TitleLink.propTypes = {
     title: PropTypes.string.isRequired,
-    url: PropTypes.string.isRequired,
+    url: !PropTypes.string.isRequired,
     isBold: PropTypes.bool.isRequired
 }
 

@@ -37,7 +37,7 @@ IconList.propTypes = {
 }
 
 IconListItem.propTypes = {
-    url: PropTypes.string.isRequired,
+    url: !PropTypes.string.isRequired,
     icon_url: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired
 }

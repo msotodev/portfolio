@@ -3,11 +3,8 @@
   line-height: 1.5;
   font-weight: 400;
 
-  box-sizing: border-box;
-  overflow: hidden;
-
   color-scheme: light dark;
-  background-color: #242424;
+  background-color: var(--primary-color);
 
   --primary-color: #2e0427;
   --primary-dark-color: #1f011a;

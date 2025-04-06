@@ -1,11 +1,10 @@
 import './App.css'
 import Home from './components/Home/Home'
+import './helpers/LanguageHelper';
 
 function App() {
   return (
-    <div className='bg-[var(--primary-color)]'>
-      <Home />
-    </div>
+    <Home />
   )
 }
 

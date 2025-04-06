@@ -1,17 +1,19 @@
 import { GetIconUri } from '../../../helpers/IconHelper';
 import { IconList } from '../../Common/IconList/IconList';
+import { useTranslation } from 'react-i18next';
 
 export default function TechnicalSkills() {
     const programmingLangauages = GetProgrammingLangauages();
     const frameworks = GetFrameworks();
     const databases = GetDatabases();
     const frontTechnologies = GetFrontTechnologies();
+    const { t } = useTranslation();
 
     return (
         <section className='flex flex-col gap-[25px]'>
             <article className='flex flex-col gap-[25px]'>
                 <h3 className="text-2xl text-center font-semibold text-[var(--primary-color)]">
-                    Programming Langauages
+                    {t("subtitle-programming-lang")}
                 </h3>
                 <div className='flex justify-center items-center'>
                     <IconList icons={programmingLangauages} />
@@ -19,7 +21,7 @@ export default function TechnicalSkills() {
             </article>
             <article className='flex flex-col gap-[25px]'>
                 <h3 className="text-2xl text-center font-semibold text-[var(--primary-color)]">
-                    Frameworks
+                    {t("subtitle-frameworks")}
                 </h3>
                 <div className='flex justify-center items-center'>
                     <IconList icons={frameworks} />
@@ -27,7 +29,7 @@ export default function TechnicalSkills() {
             </article>
             <article className='flex flex-col gap-[25px]'>
                 <h3 className="text-2xl text-center font-semibold text-[var(--primary-color)]">
-                    Databases
+                    {t("subtitle-databases")}
                 </h3>
                 <div className='flex justify-center items-center'>
                     <IconList icons={databases} />
@@ -35,7 +37,7 @@ export default function TechnicalSkills() {
             </article>
             <article className='flex flex-col gap-[25px]'>
                 <h3 className="text-2xl text-center font-semibold text-[var(--primary-color)]">
-                    Front Technologies
+                    {t("subtitle-frontend")}
                 </h3>
                 <div className='flex justify-center items-center'>
                     <IconList icons={frontTechnologies} />

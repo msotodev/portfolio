@@ -5,24 +5,26 @@ import Contact from './Contact/Contact'
 import Toolbar from '../Common/Toolbar/Toolbar'
 import IconTitle from '../Common/IconTitle/IconTitle'
 import SocialMedia from '../Common/SocialMedia/SocialMedia'
-import Menu from '../Common/Menu/Menu'
+import { useTranslation } from 'react-i18next';
 
 export default function Home() {
+    const { t } = useTranslation();
+    
     return (
-        <div className='max-w-[900px] mx-auto flex pl-[5px] gap-[5px]'>
-            <Menu />
-            <div className='overflow-y-scroll h-[100vh] py-[45px] flex flex-col bg-[var(--light-gray)]'>
+        <div className='max-w-[900px] mx-auto'>
+            <div className='sm:mt-[45px] py-[45px] sm:rounded-[10px] flex flex-col bg-[var(--light-gray)]'>
                 <header className='px-[15px] pb-[10px] sm:pb-[45px] sm:px-[45px]'>
                     <Toolbar />
                 </header>
                 <main className='flex flex-col'>
+                    {/* <Menu /> */}
                     <div className='flex flex-col gap-[45px] px-[15px] sm:px-[45px]'>
                         <Presentation />
                         <IconTitle icon='https://img.icons8.com/?size=35&id=rt7E3Z37UZuZ&format=png&color=2e0427'
-                            title='Projects' />
+                            title={t("title-projects")} />
                         <Projects />
                         <IconTitle icon='https://img.icons8.com/?size=35&id=100041&format=png&color=2e0427'
-                            title='Technical Skills' />
+                            title={t("title-skills")} />
                         <TechnicalSkills />
                     </div>
                     <div className='mt-[45px]'>

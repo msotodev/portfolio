@@ -1,5 +1,13 @@
 @import "tailwindcss";
 
+* {
+  box-sizing: border-box;
+}
+
 #root {
   padding: 0;
+}
+
+body {
+  overflow-y: scroll;
 }
