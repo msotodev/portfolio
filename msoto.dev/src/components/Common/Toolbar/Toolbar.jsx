@@ -6,11 +6,11 @@ export default function Toolbar() {
     const { i18n } = useTranslation();
     const mexicanFlag = GetIconUri("22439", "0000000", 40);
     const unitedStateFlag = GetIconUri("6JVrADr69hMg", "000000", 40);
-    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    //const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
 
-    const [flagLang, setFlagLang] = useState(mexicanFlag);
+    const [flagLang, setFlagLang] = useState(unitedStateFlag);
     
-    const [isDarkMode, setDarkMode] = useState(prefersDark);
+    const [isDarkMode, setDarkMode] = useState(false);
 
     const handleToggleTheme = (e) => {
         const isChecked = e.target.checked;
@@ -39,7 +39,7 @@ export default function Toolbar() {
     return (
         <section className="flex justify-between">
             <button className='cursor-pointer' onClick={handleToggleLanguage}>
-                <img src={flagLang} alt="Mexico Flag" />
+                <img src={flagLang} alt="Country Flag" />
             </button>
 
             <label className="inline-flex items-center mb-5 cursor-pointer">
