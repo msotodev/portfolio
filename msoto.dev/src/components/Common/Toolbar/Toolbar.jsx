@@ -1,14 +1,13 @@
 import { useTranslation } from 'react-i18next';
-import { GetIconUri } from "../../../helpers/IconHelper";
+import MexicanFlag from '@/languages/flags/mexico.png';
+import UsaFlag from '@/languages/flags/usa.png';
 import { useState } from 'react';
 
 export default function Toolbar() {
     const { i18n } = useTranslation();
-    const mexicanFlag = GetIconUri("22439", "0000000", 40);
-    const unitedStateFlag = GetIconUri("6JVrADr69hMg", "000000", 40);
     //const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
 
-    const [flagLang, setFlagLang] = useState(unitedStateFlag);
+    const [flagLang, setFlagLang] = useState(UsaFlag);
     
     const [isDarkMode, setDarkMode] = useState(false);
 
@@ -29,7 +28,7 @@ export default function Toolbar() {
     const handleToggleLanguage = () => {
         const newLang = i18n.language === 'en' ? 'es' : 'en';
 
-        const flag = i18n.language === 'en' ? mexicanFlag : unitedStateFlag;
+        const flag = i18n.language === 'en' ? MexicanFlag : UsaFlag;
 
         setFlagLang(flag);
 

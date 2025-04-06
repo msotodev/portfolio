@@ -20,10 +20,10 @@ export default function Home() {
                     {/* <Menu /> */}
                     <div className='flex flex-col gap-[45px] px-[15px] sm:px-[45px]'>
                         <Presentation />
-                        <IconTitle icon='https://img.icons8.com/?size=35&id=rt7E3Z37UZuZ&format=png&color=2e0427'
+                        <IconTitle icon='/src/images/technologies/dark/project.png'
                             title={t("title-projects")} />
                         <Projects />
-                        <IconTitle icon='https://img.icons8.com/?size=35&id=100041&format=png&color=2e0427'
+                        <IconTitle icon='/src/images/technologies/dark/skill.png'
                             title={t("title-skills")} />
                         <TechnicalSkills />
                     </div>
