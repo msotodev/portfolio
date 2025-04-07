@@ -6,10 +6,15 @@ import Toolbar from '../Common/Toolbar/Toolbar'
 import IconTitle from '../Common/IconTitle/IconTitle'
 import SocialMedia from '../Common/SocialMedia/SocialMedia'
 import { useTranslation } from 'react-i18next';
+import { useContext } from "react";
+import { ThemeContext } from "../../poviders/ThemeProvider";
 
 export default function Home() {
     const { t } = useTranslation();
-    
+    const { isDarkMode } = useContext(ThemeContext);
+    const theme = isDarkMode ? 'light' :  'dark';
+    const path = `/images/technologies/${theme}/`;
+
     return (
         <div className='max-w-[900px] mx-auto'>
             <div className='sm:mt-[45px] py-[45px] sm:rounded-[10px] flex flex-col bg-[var(--light-gray)]'>
@@ -20,11 +25,11 @@ export default function Home() {
                     {/* <Menu /> */}
                     <div className='flex flex-col gap-[45px] px-[15px] sm:px-[45px]'>
                         <Presentation />
-                        <IconTitle icon='/images/technologies/dark/project.png'
-                            title={t("title-projects")} />
+                        <IconTitle icon={`${path}project.png`}
+                                   title={t("title-projects")} />
                         <Projects />
-                        <IconTitle icon='/images/technologies/dark/skill.png'
-                            title={t("title-skills")} />
+                        <IconTitle icon={`${path}skill.png`}
+                                   title={t("title-skills")} />
                         <TechnicalSkills />
                     </div>
                     <div className='mt-[45px]'>

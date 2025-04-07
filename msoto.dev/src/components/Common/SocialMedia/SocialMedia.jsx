@@ -1,5 +1,7 @@
 import PropTypes from "prop-types";
 import { IconList } from "../IconList/IconList";
+import { useContext } from "react";
+import { ThemeContext } from "../../../poviders/ThemeProvider";
 
 function SocialMedia() {
     const icons = GetSocialMediaIcons();
@@ -8,26 +10,30 @@ function SocialMedia() {
 }
 
 function GetSocialMediaIcons(){
+    const { isDarkMode } = useContext(ThemeContext);
+    const theme = isDarkMode ? 'light' :  'dark';
+    const path = `/images/technologies/${theme}/`;
+    
     return [
         {
             title: "Linked In",
             url: "https://www.linkedin.com/in/mario-soto-moreno-547186189",
-            icon_url: "/images/technologies/dark/linkedin.png"
+            icon_url: `${path}linkedin.png`
         },
         {
             title: "Github",
             url: "https://github.com/MatProgrammerSM",
-            icon_url: "/images/technologies/dark/github.png"
+            icon_url: `${path}github.png`
         },
         {
             title: "Discord",
             url: "https://discord.gg/",
-            icon_url: "/images/technologies/dark/discord.png"
+            icon_url: `${path}discord.png`
         },
         {
             title: "Gmail",
             url: "mailto:mariosotomor.dev@gmail.com",
-            icon_url: "/images/technologies/dark/mail.png"
+            icon_url: `${path}mail.png`
         }
     ];
 }

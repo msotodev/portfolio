@@ -18,7 +18,7 @@ function IconTitle(
 
 function TitleLink({title, url, isBold}) {
     const isLink = url !== undefined && url !== "";
-    let className = "text-2xl text-center text-[var(--primary-color)]";
+    let className = "text-2xl text-center text-[var(--primary-text-color)]";
 
     if (isBold) className += " font-bold";
 

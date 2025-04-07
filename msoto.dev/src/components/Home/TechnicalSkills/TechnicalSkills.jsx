@@ -1,18 +1,23 @@
-import { GetIconUri } from '../../../helpers/IconHelper';
 import { IconList } from '../../Common/IconList/IconList';
 import { useTranslation } from 'react-i18next';
+import { useContext } from "react";
+import { ThemeContext } from "../../../poviders/ThemeProvider";
 
 export default function TechnicalSkills() {
-    const programmingLangauages = GetProgrammingLangauages();
-    const frameworks = GetFrameworks();
-    const databases = GetDatabases();
-    const frontTechnologies = GetFrontTechnologies();
+    const { isDarkMode } = useContext(ThemeContext);
+    const theme = isDarkMode ? 'light' :  'dark';
+    const path = `/images/technologies/${theme}/`;
+
+    const programmingLangauages = GetProgrammingLangauages(path);
+    const frameworks = GetFrameworks(path);
+    const databases = GetDatabases(path);
+    const frontTechnologies = GetFrontTechnologies(path);
     const { t } = useTranslation();
 
     return (
         <section className='flex flex-col gap-[25px]'>
             <article className='flex flex-col gap-[25px]'>
-                <h3 className="text-2xl text-center font-semibold text-[var(--primary-color)]">
+                <h3 className="text-2xl text-center font-semibold text-[var(--primary-text-color)]">
                     {t("subtitle-programming-lang")}
                 </h3>
                 <div className='flex justify-center items-center'>
@@ -20,7 +25,7 @@ export default function TechnicalSkills() {
                 </div>
             </article>
             <article className='flex flex-col gap-[25px]'>
-                <h3 className="text-2xl text-center font-semibold text-[var(--primary-color)]">
+                <h3 className="text-2xl text-center font-semibold text-[var(--primary-text-color)]">
                     {t("subtitle-frameworks")}
                 </h3>
                 <div className='flex justify-center items-center'>
@@ -28,7 +33,7 @@ export default function TechnicalSkills() {
                 </div>
             </article>
             <article className='flex flex-col gap-[25px]'>
-                <h3 className="text-2xl text-center font-semibold text-[var(--primary-color)]">
+                <h3 className="text-2xl text-center font-semibold text-[var(--primary-text-color)]">
                     {t("subtitle-databases")}
                 </h3>
                 <div className='flex justify-center items-center'>
@@ -36,7 +41,7 @@ export default function TechnicalSkills() {
                 </div>
             </article>
             <article className='flex flex-col gap-[25px]'>
-                <h3 className="text-2xl text-center font-semibold text-[var(--primary-color)]">
+                <h3 className="text-2xl text-center font-semibold text-[var(--primary-text-color)]">
                     {t("subtitle-frontend")}
                 </h3>
                 <div className='flex justify-center items-center'>
@@ -47,94 +52,86 @@ export default function TechnicalSkills() {
     )
 }
 
-function GetProgrammingLangauages() {
-    const color = "2e0427";
-
+function GetProgrammingLangauages(path) {
     return [
         {
             title: "C#",
-            icon_url: GetIconUri("55205", color)
+            icon_url: `${path}csharp.png`
         },
         {
             title: "Type Script",
-            icon_url: GetIconUri("cHBUT9SmrD2V", color)
+            icon_url: `${path}typescript.png`
         },
         {
             title: "JavaScript",
-            icon_url: GetIconUri("39854", color)
+            icon_url: `${path}javascript.png`
         },
         {
             title: "Php",
-            icon_url: GetIconUri("10232", color)
+            icon_url: `${path}php.png`
         },
         {
             title: "Python",
-            icon_url: GetIconUri("12592", color)
+            icon_url: `${path}python.png`
         }
     ];
 }
 
-function GetFrameworks(){
-    const color = "2e0427";
-
+function GetFrameworks(path){
     return [
         {
             title: "React",
-            icon_url: GetIconUri("35989", color)
+            icon_url: `${path}react.png`
         },
         {
             title: "Xamarin Froms",
-            icon_url: GetIconUri("35116", color)
+            icon_url: `${path}xamarinforms.png`
         },
         {
             title: "ASP.NET MVC",
-            icon_url: GetIconUri("3756", color)
+            icon_url: `${path}aspnet.png`
         }
     ]; 
 }
 
-function GetDatabases(){
-    const color = "2e0427";
-
+function GetDatabases(path){
     return [
         {
             title: "SQL Server",
-            icon_url: GetIconUri("10429", color)
+            icon_url: `${path}sqlserver.png`
         },
         {
             title: "MySQL",
-            icon_url: GetIconUri("11625", color)
+            icon_url: `${path}mysql.png`
         },
         {
             title: "SQLite",
-            icon_url: GetIconUri("yjSayFwWHyCo", color)
+            icon_url: `${path}sqlite.png`
         },
         {
             title: "Postgre",
-            icon_url: GetIconUri("t5TTHGlH3oxb", color)
+            icon_url: `${path}postgre.png`
         }
     ]
 }
 
-function GetFrontTechnologies(){
-    const color = "2e0427";
-
+function GetFrontTechnologies(path){
     return [
         {
             title: "HTML",
-            icon_url: GetIconUri("10246", color)
+            icon_url: `${path}html.png`
         },
         {
             title: "CSS",
-            icon_url: GetIconUri("10236", color)
+            icon_url: `${path}css.png`
         },
         {
             title: "Tailwind",
-            icon_url: GetIconUri("UpSCHTwpywad", color)
+            icon_url: `${path}tailwind.png`
         },
         {
             title: "Bootstrap",
-            icon_url: GetIconUri("OODqBWCdRF8o", color)
+            icon_url: `${path}bootstrap.png`
         },
     ]
 }
