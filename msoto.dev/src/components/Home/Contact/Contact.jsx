@@ -11,9 +11,9 @@ export default function Contact(){
                     title={t("title-contact-me")} />
 
             <div className="flex flex-col lg:flex-row gap-[15px] justify-center items-center text-md">
-                <Link text={t("contact-mail")} href="mailto:mariosotomor.dev@gmail.com" image="/src/images/technologies/light/mail.png" />
+                <Link text={t("contact-mail")} href="mailto:mariosotomor.dev@gmail.com" image="/images/technologies/light/mail.png" />
                 <label className="text-[var(--primary-color)]">{t("or")}</label>
-                <Link text={t("contact-phone-number")} href="tel:3311395289" image="/src/images/technologies/light/phone.png" />
+                <Link text={t("contact-phone-number")} href="tel:3311395289" image="/images/technologies/light/phone.png" />
             </div>
         </section>
     )
