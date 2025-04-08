@@ -21,5 +21,9 @@
   "project-handheld-subtitle": "Infracciones de Tráfico",
   "project-handheld-description": "Es una aplicación móvil que tiene como propósito proveer al oficial un dispositivo para realizar una sanción al ciudadano por haber violado una regla de tránsito.",
   "project-vehicularcontrol-subtitle": "Administración de Tramites Vehiculares",
-  "project-vehicularcontrol-description": "Es un sistema robusto multipropósito que lleva el control de finanzas, recaudación, tramites vehiculares y gestión de vehiculos del estado de puebla."
+  "project-vehicularcontrol-description": "Es un sistema robusto multipropósito que lleva el control de finanzas, recaudación, tramites vehiculares y gestión de vehiculos del estado de puebla.",
+  "contact-mail": "Correo Electrónico",
+  "contact-phone-number": "Número Personal",
+  "or": "ó",
+  "by": "Por"
 }

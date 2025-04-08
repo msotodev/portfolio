@@ -17,11 +17,11 @@ export default function Home() {
 
     return (
         <div className='max-w-[900px] mx-auto'>
-            <div className='sm:mt-[45px] py-[45px] sm:rounded-[10px] flex flex-col bg-[var(--light-gray)]'>
+            <div className='sm:mt-[45px] py-[45px] gap-[15px] sm:rounded-[10px] flex flex-col bg-[var(--light-gray)]'>
                 <header className='px-[15px] pb-[10px] sm:pb-[45px] sm:px-[45px]'>
                     <Toolbar />
                 </header>
-                <main className='flex flex-col'>
+                <main className='flex flex-col gap-[10px] border-b-1 border-[var(--primary-color)]'>
                     {/* <Menu /> */}
                     <div className='flex flex-col gap-[45px] px-[15px] sm:px-[45px]'>
                         <Presentation />
@@ -38,7 +38,7 @@ export default function Home() {
                 </main>
                 <footer className='flex flex-col gap-[15px] items-center mt-[25px]'>
                     <h1 className="text-[var(--primary-color)]">
-                        Por Mario Soto Moreno
+                        {t("by")} Mario Soto Moreno
                     </h1>
                     <hr className="text-[lightgray]" />
                     <SocialMedia />

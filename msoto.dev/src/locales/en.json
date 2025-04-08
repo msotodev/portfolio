@@ -21,5 +21,9 @@
   "project-handheld-subtitle": "Traffic Violations",
   "project-handheld-description": "It is a mobile application that aims to provide the officer with a device to penalize the citizen for violating a traffic rule.",
   "project-vehicularcontrol-subtitle": "Management of vehicle procedures",
-  "project-vehicularcontrol-description": "It is a robust multi-purpose system that takes control of finances, collection, vehicular procedures and vehicle management of the state of Puebla."
+  "project-vehicularcontrol-description": "It is a robust multi-purpose system that takes control of finances, collection, vehicular procedures and vehicle management of the state of Puebla.",
+  "contact-mail": "E-Mail",
+  "contact-phone-number": "Phone",
+  "or": "or",
+  "by": "By"
 }

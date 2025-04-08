@@ -15,7 +15,7 @@ export default function TechnicalSkills() {
     const { t } = useTranslation();
 
     return (
-        <section className='flex flex-col gap-[25px]'>
+        <section className='flex flex-col gap-[45px]'>
             <article className='flex flex-col gap-[25px]'>
                 <h3 className="text-2xl text-center font-semibold text-[var(--primary-text-color)]">
                     {t("subtitle-programming-lang")}
