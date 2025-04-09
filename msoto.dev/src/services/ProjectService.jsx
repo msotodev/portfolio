@@ -1,9 +1,9 @@
 import { useTranslation } from 'react-i18next';
-import { GetBasePathByDark, GetBasePathByLight } from '../helpers/ImagesHelper';
+import { GetBasePathByLight, GetBasePathByThemeSelected } from '../helpers/ImagesHelper';
 
 export function GetProjects(light = true){
     const { t } = useTranslation();
-    const path = light ? GetBasePathByLight() : GetBasePathByDark();
+    const path = light ? GetBasePathByLight() : GetBasePathByThemeSelected();
 
     return [
         {
