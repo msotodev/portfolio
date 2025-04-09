@@ -17,7 +17,7 @@ export default function Home() {
 
     return (
         <div className='max-w-[900px] mx-auto'>
-            <div className='sm:mt-[45px] py-[45px] gap-[15px] sm:rounded-[10px] flex flex-col bg-[var(--light-gray)]'>
+            <div className='sm:mt-[45px] py-[45px] gap-[15px] sm:rounded-t-[10px] flex flex-col bg-[var(--light-gray)]'>
                 <header className='px-[15px] pb-[10px] sm:pb-[45px] sm:px-[45px]'>
                     <Toolbar />
                 </header>
