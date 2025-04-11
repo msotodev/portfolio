@@ -28,7 +28,7 @@ export default function Home() {
                         <Contact />
                     </div>
                 </main>
-                <footer className='flex flex-col gap-[15px] items-center mt-[25px]'>
+                <footer className='flex flex-col gap-[15px] items-center mt-[25px] px-[15px] sm:px-[45px]'>
                     <h1 className="text-[var(--primary-color)]">
                         {t("by")} Mario Soto Moreno
                     </h1>
