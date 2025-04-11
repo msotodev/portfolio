@@ -26,5 +26,12 @@
   "contact-phone-number": "Número Personal",
   "or": "ó",
   "by": "Por",
-  "used-technologies": "Tecnologías Utilizadas"
+  "used-technologies": "Tecnologías Utilizadas",
+  "experience-title": "Experiencia Laboral",
+  "experience-intecproof-title": "Desarrollador .Net",
+  "experience-intecproof-description": "Responsable de la creación y el mantenimiento de proyectos, mejorando la calidad, el rendimiento y la escalabilidad a travez de soluciones practicas e innovadoras.",
+  "experience-intecproof-date": "Noviembre 2020 - Actualidad",
+  "experience-bovedacreativa-title": "Desarrollador Fullstack",
+  "experience-bovedacreativa-description": "Lleve a cabo el desarrollo de soluciones a la medida para múltiples clientes, ofreciendo propuestas innovadoras a travez de aplicaciones web y móviles  mejorando mas del 30% los procesos del cliente.",
+  "experience-bovedacreativa-date": "Agosto 2019 - Noviembre 2020"
 }

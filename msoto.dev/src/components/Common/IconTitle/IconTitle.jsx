@@ -3,8 +3,8 @@ import PropTypes from "prop-types";
 function IconTitle(
     {icon, title, isCenter = true, isBold = true, url = ""}
 ){
-    let classNameDiv = "flex gap-[10px]";
     const id = title.replace(" ", "");
+    let classNameDiv = "flex gap-[10px]";
 
     if (isCenter) classNameDiv += " justify-center items-center";
 

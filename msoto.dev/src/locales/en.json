@@ -26,5 +26,12 @@
   "contact-phone-number": "Phone",
   "or": "or",
   "by": "By",
-  "used-technologies": "Used Technologies"
+  "used-technologies": "Used Technologies",
+  "experience-title": "Work Experience",
+  "experience-intecproof-title": ".Net Developer",
+  "experience-intecproof-description": "Responsible for the creation and maintenance of projects, improving quality, performance and scalability through practical and innovative solutions.",
+  "experience-intecproof-date": "November 2020 - Current",
+  "experience-bovedacreativa-title": "Fullstack Developer",
+  "experience-bovedacreativa-description": "Carry out the development of customized solutions for multiple customers, offering innovative proposals through web and mobile applications improving more than 30% customer processes.",
+  "experience-bovedacreativa-date": "August 2019 - November 2020"
 }
